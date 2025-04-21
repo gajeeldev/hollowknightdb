@@ -1,4 +1,5 @@
 import { colors } from "@/src/infrastructure/config/theme/theme"
+import { dlcTypes } from "@/src/infrastructure/domain/entities"
 import { FullScreenLoader } from "@/src/shared/components/ui/FullScreenLoader"
 import LayoutDetailScreen from "@/src/shared/components/ui/LayoutDetailScreen"
 import { Subtitle } from "@/src/shared/components/ui/Subtitle"

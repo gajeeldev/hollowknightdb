@@ -4,6 +4,7 @@ import { FullScreenLoader } from '@/src/shared/components/ui/FullScreenLoader'
 import LayoutDetailScreen from '@/src/shared/components/ui/LayoutDetailScreen'
 import { colors } from '@/src/infrastructure/config/theme/theme'
 import { Subtitle } from '@/src/shared/components/ui/Subtitle'
+import { dlcTypes } from '@/src/infrastructure/domain/entities'
 
 
 const EnemyDetailScreen = ({id}: {id: string | string[]}) => {
