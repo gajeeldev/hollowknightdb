@@ -1,11 +1,33 @@
 import {useQuery} from '@tanstack/react-query'
-import {getNails} from '../actions/getNails'
 import {FullScreenLoader} from '@/src/shared/components/ui/FullScreenLoader'
 import {globalStyles} from '@/src/infrastructure/config/theme/theme'
 import {ScrollView, View} from 'react-native'
 import {NailCard} from '../components/NailCard'
+import {useSQLiteContext} from 'expo-sqlite'
+
+type Nail = {
+	id: string
+	name: string
+	description: string
+	images: string
+	upgrade_cost: string
+	damage: number
+}
+
+type ParsedNail = Omit<Nail, 'images'> & {images: string[]}
 
 export const NailScreen = () => {
+	const db = useSQLiteContext()
+
+	const getNails = async () => {
+		const result = await db.getAllAsync<Nail>('SELECT * FROM Nail')
+		const parsed: ParsedNail[] = result.map((nail) => ({
+			...nail,
+			images: JSON.parse(nail.images),
+		}))
+		return parsed
+	}
+
 	const {data: nails} = useQuery({
 		queryKey: ['nails'],
 		queryFn: getNails,
