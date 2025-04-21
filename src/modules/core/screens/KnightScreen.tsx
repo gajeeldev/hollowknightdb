@@ -3,6 +3,8 @@ import {colors, globalStyles} from '@/src/infrastructure/config/theme/theme'
 import DialogueDescription from '@/src/shared/components/dividers/DialogueDescription'
 import {Subtitle} from '@/src/shared/components/ui/Subtitle'
 import {Image} from 'expo-image'
+import {useSQLiteContext} from 'expo-sqlite'
+import {useEffect} from 'react'
 import {
 	ScrollView,
 	StyleSheet,
@@ -11,9 +13,32 @@ import {
 	View,
 } from 'react-native'
 
+type Nail = {
+	id: string
+	name: string
+	description: string
+	images: string
+	upgrade_cost: string
+	damage: number
+}
+
+type ParsedNail = Omit<Nail, 'images'> & {images: string[]}
+
 export const KnightScreen = () => {
 	const {width, height} = useWindowDimensions()
+	const db = useSQLiteContext()
 
+	useEffect(() => {
+		const getNails = async () => {
+			const result = await db.getAllAsync<Nail>('SELECT * FROM Nail')
+			const parsed: ParsedNail[] = result.map((nail) => ({
+				...nail,
+				images: JSON.parse(nail.images),
+			}))
+			return parsed
+		}
+		getNails()
+	}, [])
 
 	return (
 		<View style={globalStyles.container}>

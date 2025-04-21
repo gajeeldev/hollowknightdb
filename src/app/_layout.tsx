@@ -8,6 +8,7 @@ import {ThemeProvider} from '@react-navigation/native'
 import {GestureHandlerRootView} from 'react-native-gesture-handler'
 import {Stack} from 'expo-router'
 import {Platform} from 'react-native'
+import {SQLiteProvider} from 'expo-sqlite'
 
 SplashScreen.preventAutoHideAsync()
 
@@ -31,53 +32,67 @@ export default function RootLayout() {
 	}
 
 	return (
-		<QueryClientProvider client={queryClient}>
-			<ThemeProvider value={darkTheme}>
-				<GestureHandlerRootView style={{flex: 1}} onLayout={onLayoutRootView}>
-					<Stack
-						screenOptions={{
-							headerBlurEffect: 'regular',
-							headerTransparent: Platform.OS === 'ios',
-							headerLargeTitle: true,
-							headerLargeTitleStyle: {
-								fontFamily: 'TrajanPro-Bold',
-								fontSize: 25,
-							},
-							headerTitleStyle: {
-								fontFamily: 'TrajanPro-Bold',
-							},
-							headerTitleAlign: 'center',
-							animation: 'slide_from_right',
-						}}
-					>
-						{/* Drawer */}
-						<Stack.Screen name='(drawer)' options={{headerShown: false}} />
+		<SQLiteProvider
+			databaseName='hkdb.db'
+			assetSource={{assetId: require('../assets/hkdb.db')}}
+		>
+			<QueryClientProvider client={queryClient}>
+				<ThemeProvider value={darkTheme}>
+					<GestureHandlerRootView style={{flex: 1}} onLayout={onLayoutRootView}>
+						<Stack
+							screenOptions={{
+								headerBlurEffect: 'regular',
+								headerTransparent: Platform.OS === 'ios',
+								headerLargeTitle: true,
+								headerLargeTitleStyle: {
+									fontFamily: 'TrajanPro-Bold',
+									fontSize: 25,
+								},
+								headerTitleStyle: {
+									fontFamily: 'TrajanPro-Bold',
+								},
+								headerTitleAlign: 'center',
+								animation: 'slide_from_right',
+							}}
+						>
+							{/* Drawer */}
+							<Stack.Screen name='(drawer)' options={{headerShown: false}} />
 
-						<Stack.Screen name='about' />
+							<Stack.Screen name='about' />
 
-						{/* Detail */}
-						<Stack.Screen name='(detail)/area/[id]' options={{title: 'Area'}} />
-						<Stack.Screen name='(detail)/boss/[id]' options={{title: 'Boss'}} />
+							{/* Detail */}
+							<Stack.Screen
+								name='(detail)/area/[id]'
+								options={{title: 'Area'}}
+							/>
+							<Stack.Screen
+								name='(detail)/boss/[id]'
+								options={{title: 'Boss'}}
+							/>
 
-						<Stack.Screen
-							name='(detail)/charm/[id]'
-							options={{title: 'Charm'}}
-						/>
+							<Stack.Screen
+								name='(detail)/charm/[id]'
+								options={{title: 'Charm'}}
+							/>
 
-						<Stack.Screen
-							name='(detail)/enemy/[id]'
-							options={{title: 'Enemy'}}
-						/>
-						<Stack.Screen name='(detail)/item/[id]' options={{title: 'Item'}} />
+							<Stack.Screen
+								name='(detail)/enemy/[id]'
+								options={{title: 'Enemy'}}
+							/>
+							<Stack.Screen
+								name='(detail)/item/[id]'
+								options={{title: 'Item'}}
+							/>
 
-						<Stack.Screen name='(detail)/npc/[id]' options={{title: 'NPC'}} />
-						<Stack.Screen
-							name='(detail)/spell_and_ability/[id]'
-							options={{title: 'Spell & Ability'}}
-						/>
-					</Stack>
-				</GestureHandlerRootView>
-			</ThemeProvider>
-		</QueryClientProvider>
+							<Stack.Screen name='(detail)/npc/[id]' options={{title: 'NPC'}} />
+							<Stack.Screen
+								name='(detail)/spell_and_ability/[id]'
+								options={{title: 'Spell & Ability'}}
+							/>
+						</Stack>
+					</GestureHandlerRootView>
+				</ThemeProvider>
+			</QueryClientProvider>
+		</SQLiteProvider>
 	)
 }
