@@ -1,191 +1,205 @@
 -- SQLite
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'44e608a7-4607-4a04-a764-855fae04d9b5',
+'Ancient Basin',
+'Ancient Basin mainly consists of rocks and fossils with occasional roots scattered throughout the area. A Tram is located in the north part which leads to Deepnest and Kingdom s Edge. The western part of the Tram tunnel can be accessed and contains a rare Pale Ore. A fountain with a statue of the Pale King in the central area of Ancient Basin grants a Vessel Fragment if a sum total of  3000 is dropped in it. If more geo than necessary is dropped, the remaining amount is not lost. The western side of Ancient Basin is the most heavily Infected, littered with spikes, bulbs of Infection, and Infected enemies such as Infected Balloons. The boss Broken Vessel can be encountered here. After it is defeated, the Monarch Wings can be found at the end of this area. The Palace Grounds are located in the eastern part of Ancient Basin, an area which can only be accessed with the Monarch Wings. This also contains a hidden Stag Station. All the way at the bottom of Ancient Basin is the locked door which leads to the Abyss.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079783/Ancient_Basin_Unmarked_jlopln.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079781/Ancient_Basin_Marked_akklru.webp"]',
+'An ancient area, Ancient Basin is filled with old structures and roads that were formed as if the rock itself possessed a will. The Pale King built his palace in Ancient Basin, and it was from there that the kingdom of Hallownest spread. He ruled Hallownest from the White Palace, rarely leaving it. The palace disappeared together with the Pale King after the Infection reappeared.',
+'Did you know the caverns continue even below the capital? Few have ventured that deep so the details are scant. Those who made it back told of impossibly old structures and roads formed as though the rock itself possessed a will.
+– Elderbug',
+'Ancient Basin can be accessed from the Royal Waterways by crossing the collapsed bridge which leads to the area. The Tram in Deepnest can also be used to enter Ancient Basin after the Tram Pass has been acquired.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'f7977b99-9565-4c56-a985-5515b6d9225c',
+'City of Tears',
+'The City of Tears is built in an enormous cavern below the Blue Lake. It has numerous large towers with expansive windows which offer views of the city. Going up and down these towers is possible via small lifts. The city has a notable divide between the rich and poor part. The eastern side of the city is where Hallownest s high society lived. The interiors in this part of the City of Tears are more posh and luxurious and contain a red and purple colour pattern, while the west part s interiors appear to be more common and plain with more blue colour tones. In the very centre of the city is Fountain Square, where the memorial fountain to the Hollow Knight is located. Hornet can be encountered here as well as Relic Seeker Lemm, the latter only after one of the Dreamers has been defeated. The Nailsmith s forge and Lemm s shop are located in the western side. This side also contains the City Storerooms Stag Station and the sub-area Soul Sanctum, where the Soul Master boss can be fought. Both Quirrel and Zote can be found in this part of the city under certain conditions. The eastern side of the city has most of the sub-areas including the Watcher s Spire, and the Tower of Love. The bosses Watcher Knights and the Collector can be fought in these sub-areas, respectively. In one of the towers is the Pleasure House which has the only Hot Spring of the city. Lastly the King s Station Stag Station can be found in the very eastern part of the city.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079786/City_of_Tears_Unmarked_vi9l5p.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079784/City_of_Tears_Marked_hoetwa.webp"]',
+'In the past, the City of Tears was known as "the city at this kingdom s heart", "Hallownest s heart", and "Hallownest s capital city". The Pilgrim s Way was the primary path to the city, starting in the Forgotten Crossroads and going through Greenpath, Fog Canyon, and the Fungal Wastes, ending at the great gate at the western end of the city. Travellers were promised that if they reached the capital, all their wishes would be granted and they could share in the city s glory. Goods from all across Hallownest were transported to the capital, though not many were sent back, implying an imabalance in the wealth and prosperity between the city and other parts of the kingdom. The members of the City s high society were the ones who exerted the most influence in Hallownest. Lurien the Watcher appears to have been one of the most influential figures of the city, watching over it with his telescope in the Watcher s Spire and taking notes about the city s comings and goings. When the Infection spread across Hallownest, the capital s gates were sealed in an attempt to prevent the Infection from reaching the city. However, this proved to be in vain as the entire city became Infected. Water now leaks from the Blue Lake through the cavern s ceiling, causing the rain and giving the capital its current name.',
+'The city looks to be built into an enormous cavern, and the rain pours down from cracks in the stone above. There must be a lot of water up there somewhere.
+– Quirrel',
+'The City of Tears can be first accessed from several other areas of Hallownest. The west main gate can be opened from the Fungal Wastes by using the City Crest on the statue of the Great Knight Hegemol. The east part of the city can be accessed by using the Tram Pass to get to Ancient Basin and then travelling north. The Tram can also be used to reach Kingdom s Edge, which has an access point to King s Station on its west side through a broken wall. Lastly, taking the lift in the Resting Grounds leads to the east part of the city.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'ecd9be6b-dc07-47a5-8fd3-84191a5f500e',
+'Colosseum of Fools',
+'The Colosseum of Fools is located in the carved-out shell of a massive, ancient bug. Many chains can be seen which hold this shell in place. Trials can be selected inside the head of the shell, where Little Fool oversees payment. The fights themselves take place in the arena east of the trial boards. Below the arena is a warriors pit with a Bench and several non-hostile Fools. Tiso can be found on the Bench if he was listened to at all previous points. Zote is located here too if he was saved in Deepnest. To the west of the warriors pit is a room where the Knight s Shade spawns if the Knight was killed during a Trial. At the very east end of the warriors pit is a Hot Spring with a Sturdy Fool relaxing in it. The east side of the arena can be seen from the warriors pit. Sounds of battle and cheering from the crowd can be heard, thrown weapons of Sturdy Fools and squishes of the Infection can be seen on the other side of the gate, though no enemies are visible and the gate cannot be opened or broken. A breakable wall to the very east of this leads to an area outside the back of the Colosseum. The Godmaster content Pale Lurker is found here where she can be killed for a Simple Key.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079789/Colosseum_of_Fools_Unmarked_bfgqvy.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079787/Colosseum_of_Fools_Marked_qjk5ya.webp"]',
+'Below the arena is a warriors pit with a Bench and several non-hostile Fools. Tiso can be found on the Bench if he was listened to at all previous points. Zote is located here too if he was saved in Deepnest. To the west of the warriors pit is a room where the Knight s Shade spawns if the Knight was killed during a Trial. At the very east end of the warriors pit is a Hot Spring with a Sturdy Fool relaxing in it.
+The east side of the arena can be seen from the warriors pit. Sounds of battle and cheering from the crowd can be heard, thrown weapons of Sturdy Fools and squishes of the Infection can be seen on the other side of the gate, though no enemies are visible and the gate cannot be opened or broken. A breakable wall to the very east of this leads to an area outside the back of the Colosseum. The Godmaster content Pale Lurker is found here where she can be killed for a Simple Key.',
+'Another warrior finds their way to our fair Colosseum. Ours is the final destination for all seeking trials of intense and deadly combat.
+– Little Fool',
+'The initial way to access the Colosseum of Fools is to climb to the top of the western chasm of Kingdom s Edge. A cavern in the northwest of this chasm eventually leads to the Colosseum of Fools.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'1ea9a886-d61e-49a0-b2a9-df61a5eb8e5d',
+'Crystal Peak',
+'Crystal Peak contains extensive tunnels throughout the mountain which were used to mine its crystals. The crystals are present across the entire area, with some tunnels having crystals lining the top and bottom of the cavern. Conveyor belts can be found in many rooms which transport the crystal shards. In the centre of Crystal Peak is a Bench with the Crystal Guardian boss. Its second form, Enraged Guardian, is located above this room, which can only be accessed once the Monarch Wings are obtained. A Mask Shard can be found after this boss fight. A lift in the northwest part of Crystal Peak connects the area to Dirtmouth. On the summit of the mountain stands a statue of the Radiance which holds a Pale Ore. In the east part of the area are tunnels filled with old mining golems, one of which contains the Crystal Heart Ability. Further below this room is a Snail Shaman temple where the Descending Dark Spell can be obtained. A nearby chasm leads to the Resting Grounds.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079792/Crystal_Peak_Unmarked_pvipot.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079790/Crystal_Peak_Marked_cujcza.webp"]',
+'In Hallownest s prime, Crystal Peak s mines supplied the kingdom s cities with a constant supply of crystals. The crystal ore contains energy, not as powerful as Soul but less lethal. Besides regular bug miners who mined the crystals with their claw-picks, creatures such as the Shardmites and Glimbacks were used to carry around carts and machines. When the Infection took hold, many of the miners died and were subsequently reanimated. Their husks were imprinted with strong purpose, causing them to continue mining even after death. The crystals themselves have a strange power hidden within them. They glow in the darkness, and there is a bright point of searing heat inside each of them. The crystals can refract light and also emit a very soft singing sound.',
+'There is some strange power hidden in the crystals that grow up there in the peaks. They gleam and glow in the darkness, a bright point of searing heat in each one. They sing too, if you listen. Very softly...
+– The Hunter',
+'Crystal Peak can be accessed from two rooms in the very east part of the Forgotten Crossroads. One room has a toll gate leading to Crystal Peak which can be opened for 50 Geo, but it requires the Lumafly Lantern to be able to interact with it. The other access point to Crystal Peak contains a breakable floor which can be destroyed with Desolate Dive/Descending Dark.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'6aa5f4eb-2191-4502-baa9-a791e1edcbf4',
+'Deepnest',
+'What most identifies Deepnest is its gloomy surroundings. Thick layers of web covering sometimes large portions of the background and twisted maze-like tunnels and passages, several having the dim glow of a bioluminescent fungus as the only source of light. Most parts of Deepnest are dark or pitch black and can be illuminated with the Lumafly Lantern. Deepnest generally finds itself in a very primal stage of development, lacking the general level of architecture seen in the rest of Hallownest. The more developed parts of Deepnest are located in its western portion. Some structures found in this area bear large outsider influence coming from the Weavers and the kingdom of Hallownest, these being the Weavers Den, Weaver statues, the Failed Tramway, and the Stag Station. The only structures that do not fall in this category are the suspended web houses found in Distant Village and their interiors. Deepnest s eastern parts are essentially composed of dark passages and complex networks of tunnels dug by its inhabitants. A Hot Spring and a Tram leading to Ancient Basin and Kingdom s Edge are located in the southeast part.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079795/Deepnest_Unmarked_iknycm.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079793/Deepnest_Marked_ifdxpq.webp"]',
+'Deepnest was occupied by two intelligent arachnid groups, the Spider Tribe, which used to be one of the most intelligent species in the land of Hallownest, and the Weavers, an outsider tribe that established their own history and culture in Deepnest. Both groups lived under the rule of their queen, Herrah the Beast, and an unknown sire, who was of honoured caste. They ruled from Distant Village where Herrah s Den was located. Deepnest was often in conflict with the Mantis Tribe and Mushroom Clan of the Fungal Wastes. When the Pale King started establishing his kingdom, Distant Village and the creatures of Deepnest completely refused his rule. His efforts of expansion were met with furious resistance. A Tramway could not be established in Deepnest due to the beasts attacking the workers. Deepnest s sire died at a certain point, leaving Herrah as the sole ruler of Deepnest. Since she was only of common descent, she struck a deal with the Pale King to have a child with him. In return, she would become a Dreamer to save Hallownest from the Infection. When the child, Hornet, was born, Herrah went to sleep a short time later, leaving Deepnest without a formal ruler. Deepnest was eventually overcome by the Infection, its brood Infected and the Weavers fleeing to their former home.',
+'This whole area swarms with deadly critters, biting, burning, scratching types. I d thought to test my strength against them. Now that bravado has left me and all I feel is tired and sore. – Cloth',
+'There are initially four ways of entering Deepnest, three from the Fungal Wastes and one from the Queen s Gardens. The eastern part of Deepnest can be accessed by either beating the Mantis Lords in the Mantis Village or reaching the bottom of the Fungal Core nearby. To the east of the Moss Chapel, there is an entrance leading to the northeast of Deepnest located on the ground. It reveals itself once the Knight has passed it and tries to come back. Alternatively, at the bottom of the Queen s Gardens, a downward passage can be found next to the Bench room ending in the northwest of Deepnest.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'5bffeb80-1b5d-4b4e-abbf-64083f712096',
+'Dirtmouth',
+'Dirtmouth is located right above the ruins of the kingdom of Hallownest, in a barren valley with rare tufts of grass, safe from the winds of the wasteland. Many lumafly lamposts are erected in and around town. Travellers used to come through the King s Pass, west of the valley, during the kingdom s heyday. However, a large door now bars access to the pass and the bridge leading down from it collapsed, forcing the occasional wanderers through hard detours around the cliffs. The Knight reaches Dirtmouth through that pass after breaking down its stone door, marking the start of their journey through Hallownest. Dirtmouth itself is almost abandoned, with many of the houses boarded up and empty. Elderbug is the oldest remaining bug in town and the only remaining resident. Bretta and Sly, two of the missing residents, return to town if they are rescued, with Sly resuming his job as Dirtmouth s shopkeep. Besides a shop, Dirtmouth also has a Stag Station locked from the inside but reachable from any other Station. Iselda opens a map shop next to the station when a Map has been purchased or False Knight has been defeated. East of town is a graveyard which leads to a stone door barring a cave, requiring a Simple Key to open. Confessor Jiji can be found in that cave in normal mode, or Steel Soul Jinn in Steel Soul Mode. Above the door, a lift goes up to Crystal Peak, but the lever to activate it is by the mines entrances.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079798/Dirtmouth_Unmarked_syaoek.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079796/Dirtmouth_Marked_hnqqwy.webp"]',
+'Dirtmouth used to be a bustling town during Hallownest s golden age, being a respite for travellers to and from the kingdom.[1] They would reach town through King s Pass, then either head down the kingdom s roads by foot or by Stag or head straight to the crystal mines by a mechanical lift. Once the Infection spread across Hallownest, all entry points into the kingdom were sealed to prevent the spread of the Infection, including the Stag Station. Dirtmouth s old well remained as the only way to enter Hallownest. Over the years, this well was used by many wanderers and adventurers to get into the ruins of the kingdom, with few of them ever returning. When the bridge up to King s Pass crumbled away, the few travellers coming to Dirtmouth had to take circuitous routes around the cliffs. Over time, nearly everyone living in Dirtmouth went down the well, drawn in one by one by the promise of wealth, glory, or enlightenment. The town fell quiet, with none of the residents ever returning from the ruins of Hallownest.',
+'Our town s fallen quiet you see. The other residents, they ve all disappeared. Headed down that well, one by one, into the caverns below. – Elderbug',
+'The initial way to access Dirtmouth is from King s Pass, after breaking down the door at the very end of the area.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'7ec9731e-ca9c-4c11-a882-3c44f49b48ec',
+'Fog Canyon',
+'The misty caverns of Fog Canyon are filled with bubbles and acid lakes, with some areas covered in thorns. The ground and walls usually consist of rocks or short, green flora. The bubbles in the region have swirling gases trapped inside them, and the ones with an orange glow can explode when popped by The Knight or their attacks. In the west part of Fog Canyon, near the connection to the Queen s Gardens, is the Overgrown Mound where the Howling Wraiths Spell can be acquired. The Teacher s Archives are located in the centre of the area which contain the boss Uumuu who is protecting Monomon the Teacher. Quirrel can initially be found outside the building. A Charm Notch is hidden in the northeast of the area, in a room filled with explosive bubbles. On the south outskirts of the canyon Millibelle the Banker has set up a bank near Queen s Station.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079801/Fog_Canyon_Unmarked_wbtvqm.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079799/Fog_Canyon_Marked_jpwidt.webp"]',
+'Fog Canyon shares many natural geological features with those of Greenpath, suggesting that the areas were not separate in the past. A guard outpost was occupied by Hallownest Crossguards. The Pilgrim s Way, a road starting in the Forgotten Crossroads and ending near the City of Tears, passes through Fog Canyon. The main feature of the area was the Teacher s Archives, where Monomon the Teacher stored all her research and the kingdom s knowledge. In an attempt to stop the Infection, Monomon became a Dreamer, sleeping for eternity in her archives, protected by the intelligent being Uumuu. At some unknown point, the Archives became a nest for the gelatinous creatures of the canyon.',
+'The canyon below us, the one thick with fog and crackling with strange energy... a Hunter can lose their senses down there. Be careful... strange and unnatural things lurk there.
+– The Hunter',
+'The north part of Fog Canyon can be accessed from Greenpath. Access to the east and centre part of Fog Canyon is initially restricted by a Shade Gate, which requires the Shade Cloak to pass through it. This part of Fog Canyon can also be accessed from the Forgotten Crossroads via a hidden passage which can be used with Isma s Tear, a careful Super Dash, or both Mothwing Cloak and Monarch Wings. Lastly, there is an entry into the east part of Fog Canyon via the Fungal Wastes, near Leg Eater, requiring Isma s Tear.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'f8db65a2-7ca8-4abe-8302-20dd42f91bb9',
+'Forgotten Crossroads',
+'Located right below the surface, the Forgotten Crossroads consists of many caverns and roads. Fossilised remains of bugs cover the surfaces of the caverns, with pale ferns growing through cracks in the ground. The Temple of the Black Egg is located near the entrance to the well in Dirtmouth in the northeast of the area. Two bosses can be fought within, the Hollow Knight and the Radiance. Quirrel can also be encountered here. In the northwest of the area is Grubhome, home to Grubfather. South of this room is an area hidden by a breakable wall where Brooding Mawlek can be fought. The east of the area has two connections to Crystal Peak. Myla is mining the crystals at the upper connection. This part of the Crossroads also has a Tram connection to the Resting Grounds. The boss False Knight can be found in the centre of the Forgotten Crossroads, with the Ancestral Mound located west of that. In the south of the Crossroads is a Hot Spring, and east of that is the boss Gruz Mother, who is sleeping in a church. The Charm merchant Salubra is located in the southeast of the area. In the abandoned village near her, Sly can be rescued in one of the houses.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079804/Forgotten_Crossroads_Unmarked_j62i9h.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079802/Forgotten_Crossroads_Marked_e53fmv.webp"]',
+'The highways and crossroads of the Forgotten Crossroads used to be bustling with life. Many travellers and traders passed through the area as it had many connections to the rest of Hallownest. The Pilgrim s Way, a road leading to the City of Tears, started in the west of the Crossroads. Due to the Infection and the passage of time, all travel through the Crossroads ceased. It is now an empty place, overrun with wild beasts and reanimated Hallownest citizens.',
+'Still winding your way through these beautiful highways? Just imagine how they must have looked during the kingdom s height, thick with traffic and bustling with life!
+– Cornifer',
+'The Forgotten Crossroads can be accessed by going down the well in Dirtmouth.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'43a00766-5a2e-45e1-b159-fca3f2767eb2',
+'Fungal Wastes',
+'The noxious caverns of the Fungal Wastes are covered in mushrooms of all kinds. Besides this, caustic pools of acid are abundant throughout the area. The Fungal Wastes are populated by the Mushroom Clan, a territorial group who pose a threat to anyone who wanders nearby. The Mantis Tribe make their home further into the area and are equally unwelcoming to outsiders. One of the main features of the area is the large Stag Station in the west part, Queen s Station. Various NPCs are present throughout the area. Leg Eater has a shop where he sells Fragile Charms in the northeast part of the Fungal Wastes. Near his shop, Cloth can be found hiding under the ground. Quirrel can be encountered twice in the area, once in the Stag Station and later in Mantis Village. In the very south of the area, near Mantis Village, Bretta can be freed and returned to Dirtmouth. The Warrior Dream Elder Hu is found in the northeast near the entrance to the City of Tears. In the Mantis Village, the Mantis Lords can be challenged to gain access to an entrance to Deepnest. A Charm Notch can be picked up after defeating two Shrumal Ogres in the north part of the Fungal Wastes. Three Charms are found throughout the area, Dashmaster in the southeast, Spore Shroom in the southwest near Deepnest, and Mark of Pride in a chest in Mantis Village after the Mantis Lords are defeated. After picking up the Mantis Claw from Mantis Village, a Mask Shard can be acquired in Queen s Station.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079807/Fungal_Wastes_Unmarked_lobzfm.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079805/Fungal_Wastes_Marked_cw0fic.webp"]',
+'The native population of the Fungal Wastes mainly consists of the Mushroom Clan and the Mantis Tribe. The Mushroom Clan is a group of fungal creatures who have a shared mind. They share a border with Deepnest, whose inhabitants they were in conflict with. When the Pale King arrived in Hallownest, they accepted his rule due to their strong belief that his foresight could protect them. However, the Mantis Tribe who live in the south part of the area had no love for the kingdom of Hallownest.[8] The Mantises agreed to a truce where they would retain sovereignty over their territory, and in return, they would keep the beasts of Deepnest at bay. The Fungal Wastes was an important area for travellers. The Pilgrim s Way, a road leading from the Forgotten Crossroads to the City of Tears, passed through the caverns. Queen s Station connected Fog Canyon and the Fungal Wastes to the Stagways, becoming a hub of travel for travellers who wanted to visit the outer edges of Hallownest. When the Infection spread across the land, the Mushroom Clan became Infected and started becoming aggressive to outsiders. While the Mantis Tribe did not fall to the Infection, they retained their tradition of attacking anyone who wandered near their village.',
+'My understanding of Hallownest can be a little vague, but below those leafy caverns is a fungal grove, once home to peaceful creatures not quite bug and not quite plant.
+– Elderbug',
+'The Fungal Wastes can be accessed from the south part of Fog Canyon, which connects to Queen s Station. To progress further into the area, the Mothwing Cloak is required. Another way to first enter the area is from the southwest part of the Forgotten Crossroads, near the Hot Spring. The Mothwing Cloak is also required to enter this way.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'1392d77a-f221-4fa1-8bc3-4f5c68681f5f',
+'Godhome',
+'Godhome s architecture generally consists of gold-coloured pillars and archways. It has clouds in the background and yellow-gold dreamcatchers fading in and out throughout the area. Golden leaves cover some of the rooms. The west part of Godhome contains the entrance and exit of the area. There are pillars which lead to the main atrium. This atrium holds the five Pantheons where bosses can be fought in a certain order once they are unlocked. The lower atrium has four of the five Pantheons, with a Bench in the upper part. The lowest part of the atrium contains the Hall of Gods, a Lifeblood door which unlocks after finishing Pantheons with Bindings equipped, and a Hot Spring in the very south-east. The upper part of Godhome s atrium is unlocked after completing the Pantheon of the Knight and then striking the structure above this Pantheon. It contains another Hot Spring and the Pantheon of Hallownest at the very top. A Bench can be accessed by dropping down on the east side of this Pantheon. The entrance to the Land of Storms, a sub-area of Godhome, is located on the west part of the upper Hot Spring. It can be opened after completing all Pantheons with all Bindings and then dropping down on the west side of the Pantheon of Hallownest.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079810/Godhome_Unmarked_m3czbi.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079808/Godhome_Marked_p6kwiw.webp"]',
+'Godhome exists in the mind of the Godseeker. Godseeker s physical body is located in the Junk Pit, but inside Godhome she and the other Godseekers are present. The Godseekers are originally from a land called the Land of Storms where they served the Gods of Thunder and Gods of Rain. At some point their gods forsook them, prompting the Godseekers to find new gods, which they searched for in Hallownest. The Godseekers use Godhome to attune themselves to the voices of the gods through ritual combat in order to ascend ever higher. They aim to use their Godly focus to find a God of Gods.',
+'By what right dost thou trespass here, in this home of the Gods? Shrivel away and begone! Begone! – Godseeker',
+'Godhome can be accessed by using the Dream Nail on Godseeker in the Junk Pit. Godseeker can be freed from her cocoon by using a Simple Key. To reach the Junk Pit, the Desolate Dive/Descending Dark Spell has to be used on the ground below the Bench in the Royal Waterways. The Junk Pit can be entered by destroying a breakable wall near Flukemarm s location.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'f61b7ce1-7cbc-4495-b696-e987c28aa505',
+'Greenpath',
+'Greenpath is an exuberant green cavern, composed of diverse vegetation, mossy valleys, and broad lakes of acid. These features are deeply reflected in its inhabitants, who developed a natural mossy camouflage, allowing them to perfectly blend in with their surroundings. hroughout all of Greenpath, pillars and egg-shaped stones with swirling carvings, sometimes reaching enormous sizes, can frequently be spotted. Zote the Mighty can be found in the north part of the area being attacked by the Vengefly King. The Knight has the choice to either save him or leave him to die. In the northwest part of Greenpath, to the left of the arena where Hornet is fought, the Lake of Unn can be found with a lone Moss Knight standing on the edge of the pier next to the shrine. Further west, on the other side of the lake, Unn can be encountered at the bottom of the lake. In the southwest sector of the area, at the end of a challenging path full of thorns and Durandas, is Sheo s Hut, where the Knight can learn the Great Slash Nail Art. In the very southeastern portion of the area, near the connection to Fog Canyon, the Stone Sanctuary can be found at the end of a dark passage below the Bench room. In the section above, lies the Hunter in his lair set up in a small cave.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079759/Greenpath_Unmarked_hmzvy8.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079758/Greenpath_Marked_edxwkz.webp"]',
+'Greenpath is inhabited by the Mosskin Tribe, a group of plant-like bugs. They allowed the Pale King to build roads throughout their lush caves, but anyone straying from the paths would face the law of Unn. The most glaring displays of their skills of carving and construction are the Lore Tablets scattered across Greenpath and the temple built to worship their god, Unn, which is located on the shores of the Lake of Unn, where the Higher Being lives. Unn is said to have created all of the area s flora and the Mosskin themselves from her dreams. She is calling the mosskin, who are waiting for the call to return. The region now known as Greenpath used to be much more extensive, stretching over the Queen s Gardens and possibly Fog Canyon.',
+'The greater mind once dreamed of leaf and cast these caverns so.
+In every bush and every vine the mind of Unn reveals itself to us. – The Mosskin',
+'In order to enter Greenpath, an Elder Baldur must be defeated. This requires the Vengeful Spirit Spell from the Snail Shaman in the Ancestral Mound.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'f258c41a-315f-43c8-b83c-4674260a14c5',
+'Howling Cliffs',
+'A steep cliff bordering the wasteland outside the Pale King s domain, inhabited by small crawling and flying enemies. The ground is littered with husks and corpses of bugs. In the northeast, near the chasm leading to King s Pass, Mato s Hut is located. The Cyclone Slash Nail Art can be learned there. The Stag Nest is located in the northwest part of the area. It is only accessible via Stagways or by Nail-bouncing on a nearby Vengefly. On the cliffside next to Cornifer, a dark cavern can be accessed. At its end is Joni s Repose where the Joni s Blessing Charm can be obtained. Below Cornifer there are two breakable walls leading to a Lore Tablet and a passage where the Nightmare Lantern can be found. In the southwest, there is a chest that the Knight can jump into, which leads to a chamber with two Elder Baldurs. Defeating the one on the right leads to a room with the Baldur Shell Charm.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079761/Howling_Cliffs_Unmarked_jtlk08.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079760/Howling_Cliffs_Marked_nz6n3i.webp"]',
+'The Pale King granted wild bugs sentience through his beacon. The ones who chose to leave the kingdom lost their memories. Most bugs living in the wastelands outside Hallownest are unintelligent as sapience would seemingly be a weakness in their environment.',
+'Enjoying the bracing air? We re quite close to Hallownest s borders and those desolate plains that surround it... – Cornifer',
+'There are three ways of accessing the Howling Cliffs, all of which require the Mantis Claw. A secret passage leading to the northeast part of the area can be found to the left of the game s starting point in King s Pass, and a connection to the southern part of the area is located in the northern part of Greenpath. Though the Baldur Shell Charm can be acquired without the Mantis Claw, the rest of the area would be inaccessible. The Howling Cliffs can also be accessed from the Stag Nest after every other Stag Station is unlocked.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'92571c7c-f9fe-4113-8f2d-4983e86ae4ba',
+'Kingdom s Edge',
+'The cliff range of Kingdom s Edge is characterised by its tall canyons and ash that blankets the caverns. There is little vegetation except for large white roots that protrude from the walls and colourless plants that grow on numerous surfaces. The rest of the cavern walls consist of rocks and fossilised shells. The central part of the area contains the largest cliff from which the corpses of warriors from the Colosseum of Fools are thrown down. At the bottom of this cliff lies a pit of acid. East of this area the Warrior Dream Markoth can be found, hidden behind a Shade Gate. Nailmaster Oro is located south-east of him. He sells the Dash Slash Nail Art. A breakable floor below him leads to the Quick Slash Charm and the largest Geo deposit in Hallownest. Hornet is fought near the Cast-Off Shell in the very east of Kingdom s Edge. The King s Brand can be found in this sub-area. Bardoon is located in the north part of the area near the central cliff. Further north is the entrance to the Colosseum of Fools. In the south-west is the entrance to the Hive and access to a Tram.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079763/Kingdom_s_Edge_Unmarked_bvsljt.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079762/Kingdom_s_Edge_Marked_j77wgb.webp"]',
+'Kingdom s Edge is the area where the Pale King arrived as a large Wyrm before the kingdom was founded. He shed his shell in the east part of Kingdom s Edge and transformed into his smaller form. His decaying corpse became responsible for the ash falling on Kingdom s Edge, which is actually moult. Once the kingdom was established and the City of Tears was built, the city inhabitants seemed hesitant to built further into Kingdom s Edge, apparently kept at bay by something. At some point the Colosseum of Fools was set up in the carved-out corpse of an ancient bug which died on one of the cliffs. It drew warriors from all corners to compete in its arena.',
+'This ashen place is grave of Wyrm. Once told, it came to die. But what is death for that ancient being? More transformation methinks.
+This failed kingdom is product of the being spawned from that event. – Bardoon',
+'The area can be accessed in two different ways. The first way is by using the entrance in King s Station in the City of Tears. The ruined Stagway at the very bottom of this station contains water which can be swum in to reach a hidden area. This eventually leads to the central cliff of Kingdom s Edge. The other way is by taking the Tram from either Deepnest or Ancient Basin and going upwards to reach a breakable wall which leads to the bottom of the central cliff.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'a0a56a49-3f74-4510-9acc-41ba84d9a756',
+'Queen s Gardens',
+'The Gardens are filled with overgrown vegetation, thorny vines, and neglected greenhouses. Lanterns with Lumaflies light up the area. Besides the Hallownest structures and flowering plants, tents have cropped up in the Gardens, housing the Mantis Traitors. The south-east part of the Gardens contains a corpse holding the Love Key. Below this area is the Moss Chapel where the Moss Prophet preaches. In the central part of the Queen s Gardens is a Stag Station, which can be opened by going above and around this room. Along the way, the Warrior Dream Marmu can be found. Further north is a greenhouse where the Traitor Lord is fought. The White Lady is located west of this area, alongside the corpse of Dryya. After the Traitor Lord s defeat, she grants a White Fragment, half of the Kingsoul Charm. The grave of the Traitor Lord s daughter is located above the Stag Station. This room is important for the Delicate Flower quest.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079766/Queen_s_Gardens_Unmarked_wp3yql.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079764/Queen_s_Gardens_Marked_cwq6hx.webp"]',
+'The Queen s Gardens used to belong to Unn and her Mosskin Tribe. At some point this area was annexed by the White Lady, who turned it into her well-guarded retreat. After the White Lady bound herself in her chamber in the Gardens and the Infection returned, the Gardens grew wild and became overgrown. When the Mantis Traitors were exiled from their village in the Fungal Wastes, they eventually settled in the Queen s Gardens. They now consider the gardens to be their lands.',
+'Have you heard of Hallownest s Queen? Apparently these gardens were once her retreat... Now some vicious types are crawling all over the place and the plants have grown wild...
+– Cornifer',
+'There are initially three ways to enter the Queen s Gardens: two from Fog Canyon and one from Deepnest. The first entrance is below the Overgrown Mound, requiring the Shade Cloak to bypass a Shade Gate. The lower entrance requires crossing under a wall of vines with either Isma s Tear or a very well-timed Super Dash. The third entrance is in a hidden area immediately outside Mask Maker s room. Using it requires breaking a plank in the northwest corner of the room by either using the Monarch Wings or Nail-bouncing off a Little Weaver.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'f62b858a-c4c3-4baa-a2e2-3d4121064d4d',
+'Resting Grounds',
+'Tombstones and monuments cover the caverns of the Resting Grounds. Before the Dream Nail has been acquired, the area is grey and relatively colourless. After obtaining the Dream Nail, the Resting Grounds becomes an area with a blue colour-tone and ghostly spirits floating throughout the foreground and backdrop. The west part of the Resting Grounds contains the Blue Lake, a body of water where Tiso and Quirrel can be encountered at certain points. Above this area is a Tram which leads to the Forgotten Crossroads. Near the Tram is a grave where the Warrior Dream Xero can be fought. Further east are the Dreamer Shrine statues, which can be interacted with to obtain the Dream Nail after escaping from a forgotten dream. The Seer is present in the northeast part of the area. She gives rewards depending on how much Essence has been collected. Below her is a room which contains the Dreamshield Charm. Opposite this room is a Stag Station. Above this is the entrance to Spirits Glade which can be opened after collecting 200 Essence. Below the Stag Station is a grave where Desolate Dive/Descending Dark can be used. This leads to the Crypts, an area containing the Soul Eater Charm. The Grey Mourner can be found near this area after breaking a cracked ceiling above a chest. The south part of the Resting Grounds has a lift leading to the east side of the City of Tears.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079768/Resting_Grounds_Unmarked_invc8d.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079767/Resting_Grounds_Marked_ximajo.webp"]',
+'The Resting Grounds were a sacred place where bugs would come to conduct rituals for the dead. The Moth Tribe were the caretakers of the graves, eventually closing the door to Spirits Glade and forbidding its opening. A shrine to the Dreamers was built after they went into an eternal sleep. When the Infection returned, bugs stopped going to the Resting Grounds. The Seer ended up being the last survivor of her tribe. She maintains the graves and guides the wielder of the Dream Nail.',
+'The Resting Grounds... Passengers would come here to conduct rituals for those who had passed on...Not any more though. Perhaps the dead conduct their own rituals now?
+– The Last Stag',
+'The Resting Grounds can be first accessed in four different ways. With the Tram Pass, the Tram in the Forgotten Crossroads can be taken which leads to the west part of the Resting Grounds. A hidden area above Salubra s hut can also be used to go to the Blue Lake. Another way to enter the area is to use the lift in the east part of the City of Tears. Lastly, the chasm near the Crystallised Mound in Crystal Peak can be used to fall into the Resting Grounds.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'d347858f-d00c-4b94-a50c-e9c1b07b8a6c',
+'Royal Waterways',
+'Many areas in the Waterways are flooded by the water constantly dripping from above, originating from the rain in the City of Tears (and ultimately from the Blue Lake). Several rooms in the waterways are littered with piles of trash. The area is divided into two sections by a broken lift shaft. The east part shares many traits with the west but also features acid pools and plant overgrowth. On the western side, the NPCs Tuk and Fluke Hermit can be found. This side also contains the Junk Pit, where the Godseeker is located. Furthermore, the bosses Dung Defender, White Defender, and Flukemarm can be found on this side too. On the eastern side, Isma s Grove is located, where Isma s Tear can be obtained. In the centre of this side is a shortcut to the City of Tears.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079767/Resting_Grounds_Marked_ximajo.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079770/Royal_Waterways_Marked_tquyoo.webp"]',
+'The waterways pipes were built to carry away the capital s waste. However, the incessant rain in the city above has washed the pipes clean. All trash carried by the water eventually ends up in the Junk Pit. With the kingdom s ruin, Flukes established a colony in the depths of the waterways and populated the area along with other creatures.',
+'Aren t these waterways thrilling? A labyrinth of pipes and tunnels... I couldn t have asked for a better place to employ my talents. It s all so orderly, so considered, nothing like the crude irregularity of those caverns... – Cornifer',
+'The main way to access the Royal Waterways is through a hatch located in the room next to Fountain Square. The hatch can be opened using a Simple Key. It can also be first accessed by taking the Tram to Kingdom s Edge and then using Crystal Heart in a passage northwest of the Hive to end up near Isma s Grove.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'4735f6fc-8cb3-4fb8-b827-a7ce2797917f',
+'The Abyss',
+'The main area of the Abyss is a giant chasm littered with the shells of Vessels who were born and then discarded. When the Kingsoul Charm is equipped, a path to a hidden area can be opened with Desolate Dive, leading to an egg that can be Dream Nailed to obtain Void Heart. To the very west is an altar surrounded by numerous screaming faces where the Abyss Shriek Spell can be acquired. To the east is the sea of Void, with a massive lighthouse standing on its shore. This lighthouse can be activated to calm down the Void Tendrils in the sea which normally lash out towards intruders, allowing the Knight to cross to the east side of the Abyss. The east side holds the Shade Cloak, in a room with a corpse holding a bowl of Void. It also appears to be where the Pale King studied the Void, as there is a research room with diagrams on the walls, as well as the Hunter s Journal entry for Void Tendrils. The Void Tendrils and Siblings found throughout the Abyss become passive once Void Heart has been acquired.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079774/The_Abyss_Unmarked_c5emlq.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079772/The_Abyss_Marked_lv59wo.webp"]',
+'Before the kingdom of Hallownest was founded, an ancient civilisation originated from or near the Abyss who worshipped the Void. When the Pale King arrived in Hallownest, he eventually discovered the Abyss and the presence of the Void. After the Infection appeared, he used the Void to turn his children into Vessels, beings with a shell filled with Void who were born in the Abyss, hoping that their emptiness could contain the Infection. The Pale King sealed the Abyss after selecting the Hollow Knight as his chosen Vessel. The shades of dead Vessels, the Siblings, still wander the bottom of the Abyss.',
+'Far down below us, beneath the kingdom, the air grows stiller and a sense of emptiness pervades. Can life flourish down there? – The Hunter',
+'The Abyss can be accessed by going to the bottom of Ancient Basin and by having the King s Brand to unlock the entrance.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'4437c6eb-f550-4330-87c5-1818dae65efb',
+'The Hive',
+'Particular to the Hive are structures built out of brown and translucent honey-like materials. The architecture also follows a hexagonal shape reminiscent of honeycombs. Along the floor, in egg-like clumps, are globs of honey - some of which contain caches of Geo. Platforms within the area bear a hexagonal design and also appear to be formed from hardened honey. Some of these platforms, and even a wall within the Hive, are cracked, making them vulnerable to being shattered by the speeding bulk of a Hive Guardian. Found supporting the structure, are large brown pillars placed in various locations inside the Hive and providing illumination are hanging lights made out of nectar. The Hive is decorated with rod-like protrusions from the ground, which emit a dull light and crystallised honeycombs which are also densely scattered in the area. In the lower regions of the structure are chairs, tables, and shelves, all sharing a hexagonal design.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079777/The_Hive_Unmarked_pyz60s.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079775/The_Hive_Marked_zc5txu.webp"]',
+'The Hive is inhabited by a species of airborne warriors ruled by a queen. Though the colony exists within Hallownest, they remained separate from the kingdom s affairs, walled off from the lands of the Pale King. During Hallownest s reign, the bees sealed up all outside accesses, save for the occasional patrolling Hivelings. Their queen died after growing so large she could no longer leave her domain. From then on, the Hive was weakened and thus eventually overtaken by the Infection. However, in comparison to other affected groups, the Hive remains orderly.',
+'Though this hive exists within Hallownest, we play no part in its attempt at perpetuation.
+– Hive Queen Vespa',
+'The Hive can be accessed once the Knight obtains the Tram Pass and takes it to Kingdom s Edge. Heading east, they come across a wall patrolled by a few stray Hivelings. Either wall-jumping and hitting the wall with the Nail or simply firing a Vengeful Spirit/Shade Soul Spell destroys the hidden, breakable wall and grants the Knight access to the Hive.'
 );
 INSERT INTO Areas (id, name, description, images, lore, game_description, how_to_access)
 VALUES (
-'',
-'',
-'',
-'["",""]',
-'',
-'',
-''
+'ee8481a5-8d23-4986-a777-35dd4fc08ca3',
+'White Palace',
+'The White Palace mainly consists of white and light grey architecture. The rooms contain large, tall windows which let in light from the outside. The palace is covered in white-grey leaves, roots, and ferns. Flying creatures can be seen flying away in certain areas. Besides these features, the palace is covered in buzz-saws, thorns, and spikes. The entrance to the White Palace opens after defeating the Kingsmould that guards it. After entering the palace, another Kingsmould needs to be defeated and a switch needs to be activated to gain access to the atrium of the area. This atrium contains a bench and has two hallways leading to linear areas which each have a switch at the end. Activating both of these switches opens the lift at the top of the atrium. This grants access to the upper palace. The atrium also contains an exit out of the White Palace. The northern part of the White Palace is fairly linear and eventually leads to the throne room where the Pale King s corpse is sitting on his throne. Hitting him and making him fall off drops his half of the Kingsoul Charm. Once the Pale King has fallen off the throne, the Knight can sit on the throne and a short music box tune starts playing. Picking up the half of the Kingsoul makes the Knight wake up outside the palace. This also prevents the Knight from sitting on the throne, locking the interaction forever and causing the Pale King s corpse to vanish. The area s only sub-area, the Path of Pain, can be opened by destroying a breakable wall in the room above the lift leading to the upper part of the White Palace. Completing the Path of Pain grants the Seal of Binding entry in the Hunter s Journal. After completing it this sub-area cannot be entered again.',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079780/White_Palace_Unmarked_ripwvp.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745079778/White_Palace_Marked_nnkeho.webp"]',
+'Originally located in the Palace Grounds in Ancient Basin, the White Palace was where the Pale King ruled over Hallownest. Royal Retainers were servants of the King who served in the palace, and the Kingsmoulds were guards of the palace made by the Pale King with Void in his workshop. The Hollow Knight was raised in the White Palace before being sealed in the Temple of the Black Egg. After the Infection returned and Hallownest fell to ruin, the Pale King went into hiding. The White Palace vanished from its location in Ancient Basin, and it seems the Pale King somehow took the palace with him when he fled.',
+'Have you visited the remnants of his palace? It s down below this city, in the bedrock of the kingdom. Must ve been an impressive sight in its time. Now there s nothing left.
+It s a strange thing though. There are no signs of conflict around the area. It s as though the whole place just vanished. – Relic Seeker Lemm',
+'The White Palace can be accessed by using the Awoken Dream Nail on the corpse of the Kingsmould in the Palace Grounds in Ancient Basin. The Monarch Wings are required to reach the Palace Grounds. After getting half of the Kingsoul Charm and waking up outside, the White Palace can be entered again by simply using the Dream Nail on the corpse.'
 );
