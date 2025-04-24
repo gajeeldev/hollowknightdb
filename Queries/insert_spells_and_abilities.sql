@@ -159,7 +159,7 @@ The Dashmaster Charm does not reduce the Shade Cloak cooldown. It only reduces t
 Acquiring the Shade Cloak also unlocks new dialogue for Mask Maker.',
 'Located in the Abyss, to the very east, beyond the sea of Void. The Knight must first climb the lighthouse on the west side of the sea and activate the light in order to suppress the Void Tendrils blocking access to the Shade Cloak room. Once there, standing inside the bowl of the Void fountain results in Void permeating the Knight before the ability is granted.',
 'Ability',
-'The Sharp Shadow Charm causes the Shadow Dash to deal 1x Nail damage and increases dash length by 40%.'
+'["The Sharp Shadow Charm causes the Shadow Dash to deal 1x Nail damage and increases dash length by 40%."]'
 );
 INSERT INTO SpellsAndAbilities (id, name, inventory_description_1, inventory_description_2, prompt_description_1, prompt_description_2, images, function, how_to_acquire, type, modifiers)
 VALUES (
