@@ -911,3 +911,15 @@ VALUES (
 'Humungous slug',
 ''
 );
+INSERT INTO NPCs (id, name, description, images, lore, in_game_events, location, type, dream_nail_dialogue)
+VALUES (
+'91611925-b7f3-4ec9-a9ed-c03f85ca2a1d',
+'Tuk',
+'',
+'["https://res.cloudinary.com/dqna4zqh5/image/upload/v1745084532/Tuk_1_hanyxw.webp","https://res.cloudinary.com/dqna4zqh5/image/upload/v1745084539/Tuk_2_ydocln.webp"]',
+'',
+'',
+'',
+'Stranger bug',
+'[""]'
+);
