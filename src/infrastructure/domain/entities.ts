@@ -3,4 +3,5 @@ export enum dlcTypes {
 	HiddenDreams = 'Hidden Dreams',
 	TheGrimmTroupe = 'The Grimm Troupe',
 	Godmaster = 'Godmaster',
+	Lifeblood = 'Lifeblood',
 }
