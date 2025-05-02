@@ -41,7 +41,7 @@ export const BossDetailScreen = ({id}: {id: string | string[]}) => {
 						}
 					}
 				>
-					<Text style={styles.text}>Health</Tex>
+					<Text style={styles.text}>Health</Text>
 					<View style={styles.divider} />
 
 					{boss.health?.map((h, index) => (

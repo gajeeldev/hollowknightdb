@@ -3,11 +3,36 @@ import {FullScreenLoader} from '@/src/shared/components/ui/FullScreenLoader'
 import {useQuery} from '@tanstack/react-query'
 import {FlatList, View} from 'react-native'
 import {AchievementsCard} from '../components/AchievementCard'
+import {useSQLiteContext} from 'expo-sqlite'
+
+type Achievement = {
+	id: string
+	name: string
+	description: string
+	images: string
+}
+
+type ParsedAchievement = Omit<Achievement, 'images'> & {
+	images: string[]
+}
 
 export const AchievementsScreen = () => {
+	const db = useSQLiteContext()
+
+	const getAchievements = async () => {
+		const result = await db.getAllAsync<Achievement>(
+			'SELECT * FROM Achievements',
+		)
+		const parsed: ParsedAchievement[] = result.map((achievement) => ({
+			...achievement,
+			images: JSON.parse(achievement.images),
+		}))
+		return parsed
+	}
+
 	const {data: achievements, isLoading} = useQuery({
 		queryKey: ['achievements'],
-		// queryFn: getAchievements,
+		queryFn: getAchievements,
 		staleTime: 1000 * 60 * 60, // 1 hour
 	})
 

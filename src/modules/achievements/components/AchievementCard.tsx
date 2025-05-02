@@ -5,14 +5,14 @@ import {StyleSheet, Text, useWindowDimensions, View} from 'react-native'
 import Animated, {FadeInDown} from 'react-native-reanimated'
 
 interface Props {
-	achievement: string
+	name: string
 	description: string
 	images: string[]
 	index: number
 }
 
 export const AchievementsCard = ({
-	achievement,
+	name,
 	description,
 	images,
 	index,
@@ -32,7 +32,7 @@ export const AchievementsCard = ({
 				priority='high'
 			/>
 			<View style={styles.textContainer}>
-				<Text style={styles.title}>{achievement}</Text>
+				<Text style={styles.title}>{name}</Text>
 				<Text adjustsFontSizeToFit style={styles.description}>
 					{description}
 				</Text>
