@@ -1,15 +1,42 @@
-import { colors } from "@/src/infrastructure/config/theme/theme"
-import { dlcTypes } from "@/src/infrastructure/domain/entities"
-import { FullScreenLoader } from "@/src/shared/components/ui/FullScreenLoader"
-import LayoutDetailScreen from "@/src/shared/components/ui/LayoutDetailScreen"
-import { Subtitle } from "@/src/shared/components/ui/Subtitle"
-import { useQuery } from "@tanstack/react-query"
-import { StyleSheet, Text, View } from "react-native"
+import {colors} from '@/src/infrastructure/config/theme/theme'
+import {dlcTypes} from '@/src/infrastructure/domain/entities'
+import {FullScreenLoader} from '@/src/shared/components/ui/FullScreenLoader'
+import LayoutDetailScreen from '@/src/shared/components/ui/LayoutDetailScreen'
+import {Subtitle} from '@/src/shared/components/ui/Subtitle'
+import {useQuery} from '@tanstack/react-query'
+import {useSQLiteContext} from 'expo-sqlite'
+import {StyleSheet, Text, View} from 'react-native'
+import {Boss, ParsedBoss} from '../types'
 
-export const BossDetailScreen = ({id}: {id: string | string[]}) => {
+export const BossDetailScreen = ({id}: {id: string}) => {
+	const db = useSQLiteContext()
+
+	const getBossById = async (id: string) => {
+		const result = await db.getFirstAsync<Boss>(
+			'SELECT * FROM Bosses WHERE id = ?',
+			[id],
+		)
+
+		if (!result) {
+			throw new Error('Boss not found')
+		}
+
+		const parsed: ParsedBoss = {
+			...result,
+			images: JSON.parse(result.images),
+			dream_nail_dialogue: result.dream_nail_dialogue
+				? JSON.parse(result.dream_nail_dialogue)
+				: null,
+			health: result.health ? JSON.parse(result.health) : null,
+			has_nail_upgrades: result.has_nail_upgrades === 1,
+		}
+
+		return parsed
+	}
+
 	const {data: boss} = useQuery({
 		queryKey: ['boss', id],
-		// queryFn: () => getBossById(id),
+		queryFn: () => getBossById(id),
 		staleTime: 1000 * 60 * 60, //1 hour
 	})
 
@@ -18,7 +45,7 @@ export const BossDetailScreen = ({id}: {id: string | string[]}) => {
 	return (
 		<LayoutDetailScreen
 			images={boss.images}
-			title={boss.boss}
+			title={boss.name}
 			firstDescription={boss.description_1}
 			secondDescription={boss.description_2}
 			dlc={boss.dlc}

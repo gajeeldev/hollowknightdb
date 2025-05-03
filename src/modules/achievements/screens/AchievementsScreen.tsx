@@ -4,17 +4,7 @@ import {useQuery} from '@tanstack/react-query'
 import {FlatList, View} from 'react-native'
 import {AchievementsCard} from '../components/AchievementCard'
 import {useSQLiteContext} from 'expo-sqlite'
-
-type Achievement = {
-	id: string
-	name: string
-	description: string
-	images: string
-}
-
-type ParsedAchievement = Omit<Achievement, 'images'> & {
-	images: string[]
-}
+import { Achievement, ParsedAchievement } from '../types'
 
 export const AchievementsScreen = () => {
 	const db = useSQLiteContext()

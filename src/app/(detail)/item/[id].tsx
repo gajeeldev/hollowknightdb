@@ -14,17 +14,15 @@ const ItemDetailPage = () => {
 		return <NoIdScreen />
 	}
 
-	//TODO: change ids
-
-	if (id === '66259913-6967-46db-b751-941376e6961a') {
+	if (id === 'a5ec4500-a2e0-47c3-af14-108da2d1244e') {
 		return <DelicateFlowerScreen id={id} />
 	}
 
-	if (id === 'd5efe0da-7631-4a9f-a5aa-5ddd0883a508') {
+	if (id === 'fcd64741-41b2-4179-a1b7-a21cb956588f') {
 		return <HunterMarkScreen id={id} />
 	}
 
-	if (id === 'f49f0bbe-2568-450e-be27-eb39ad994214') {
+	if (id === '76e9460b-0cfa-474f-b1a1-1ef1f1ed9f09') {
 		return <MapAndQuillScreen id={id} />
 	}
 

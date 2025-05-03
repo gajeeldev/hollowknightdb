@@ -4,11 +4,35 @@ import {FullScreenLoader} from '@/src/shared/components/ui/FullScreenLoader'
 import LayoutDetailScreen from '@/src/shared/components/ui/LayoutDetailScreen'
 import {Subtitle} from '@/src/shared/components/ui/Subtitle'
 import {colors} from '@/src/infrastructure/config/theme/theme'
+import {useSQLiteContext} from 'expo-sqlite'
+import {Npc, ParsedNpc} from '../types'
 
-const NpcDetailScreen = ({id}: {id: string | string[]}) => {
+const NpcDetailScreen = ({id}: {id: string}) => {
+	const db = useSQLiteContext()
+
+	const getNpcById = async (id: string) => {
+		const result = await db.getFirstAsync<Npc>(
+			'SELECT * FROM Npcs WHERE id = ?',
+			[id],
+		)
+
+		if (!result) {
+			throw new Error('Npc not found')
+		}
+
+		const parsed: ParsedNpc = {
+			...result,
+			images: JSON.parse(result.images),
+			dream_nail_dialogue: result.dream_nail_dialogue
+				? JSON.parse(result.dream_nail_dialogue)
+				: null,
+		}
+
+		return parsed
+	}
 	const {data: npc} = useQuery({
 		queryKey: ['npc', id],
-		// queryFn: () => getNpcById(id),
+		queryFn: () => getNpcById(id),
 		staleTime: 1000 * 60 * 60, //1 hour
 	})
 
@@ -17,7 +41,7 @@ const NpcDetailScreen = ({id}: {id: string | string[]}) => {
 	return (
 		<LayoutDetailScreen
 			images={npc.images}
-			title={npc.npc}
+			title={npc.name}
 			firstDescription={npc.description}
 		>
 			<Subtitle text='Type' />

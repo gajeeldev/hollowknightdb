@@ -4,11 +4,24 @@ import {useQuery} from '@tanstack/react-query'
 import {FlatList, View} from 'react-native'
 import {CharmCard} from '../components/CharmCard'
 import {type Href} from 'expo-router'
+import {useSQLiteContext} from 'expo-sqlite'
+import {Charm, ParsedCharmCard} from '../types'
 
 export const CharmsScreen = () => {
+	const db = useSQLiteContext()
+
+	const getCharms = async () => {
+		const result = await db.getAllAsync<Charm>('SELECT * FROM Charms')
+		const parsed: ParsedCharmCard[] = result.map((charm) => ({
+			...charm,
+			images: JSON.parse(charm.images),
+		}))
+		return parsed
+	}
+
 	const {data: charms} = useQuery({
 		queryKey: ['charms'],
-		// queryFn: getCharms,
+		queryFn: getCharms,
 		staleTime: 1000 * 60 * 60, // 1 hour
 	})
 
@@ -24,7 +37,7 @@ export const CharmsScreen = () => {
 				renderItem={({item, index}) => (
 					<CharmCard
 						href={`(detail)/charm/${item.id}` as Href}
-						title={item.charm}
+						title={item.name}
 						image={item.images[0]}
 						index={index}
 					/>

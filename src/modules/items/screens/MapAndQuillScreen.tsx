@@ -26,13 +26,36 @@ import {GoBack} from '@/src/shared/components/GoBack'
 import {blurhash} from '@/src/infrastructure/config/constants/constans'
 import DialogueDescription from '@/src/shared/components/dividers/DialogueDescription'
 import {Subtitle} from '@/src/shared/components/ui/Subtitle'
+import {useSQLiteContext} from 'expo-sqlite'
+import {Item, ParsedItem} from '../types'
 
-export const MapAndQuillScreen = ({id}: {id: string | string[]}) => {
+export const MapAndQuillScreen = ({id}: {id: string}) => {
 	const {top} = useSafeAreaInsets()
 	const {width, height} = useWindowDimensions()
+
+	const db = useSQLiteContext()
+
+	const getItemById = async (id: string) => {
+		const result = await db.getFirstAsync<Item>(
+			'SELECT * FROM Items WHERE id = ?',
+			[id],
+		)
+
+		if (!result) {
+			throw new Error('Item not found')
+		}
+
+		const parsed: ParsedItem = {
+			...result,
+			images: JSON.parse(result.images),
+		}
+
+		return parsed
+	}
+
 	const {data: item} = useQuery({
 		queryKey: ['item', id],
-		// queryFn: () => getItemById(id),
+		queryFn: () => getItemById(id),
 		staleTime: 1000 * 60 * 60, //1 hour
 	})
 
@@ -42,7 +65,7 @@ export const MapAndQuillScreen = ({id}: {id: string | string[]}) => {
 		<View style={globalStyles.container}>
 			<Stack.Screen
 				options={{
-					title: item.item,
+					title: item.name,
 					headerLeft: () => <GoBack />,
 				}}
 			/>

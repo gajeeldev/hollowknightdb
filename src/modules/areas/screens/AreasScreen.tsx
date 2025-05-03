@@ -4,11 +4,28 @@ import {useQuery} from '@tanstack/react-query'
 import {FlatList, View} from 'react-native'
 import {AreaCard} from '../components/AreaCard'
 import {type Href} from 'expo-router'
+import { useSQLiteContext } from 'expo-sqlite'
+import { Area, ParsedArea } from '../types'
+
+
 
 export const AreasScreen = () => {
+
+	const db = useSQLiteContext()
+
+	const getAreas = async () => {
+		const result = await db.getAllAsync<Area>('SELECT * FROM Areas')
+		const parsed: ParsedArea[] = result.map((area) => ({
+			...area,
+			images: JSON.parse(area.images),
+		}))
+		return parsed
+	}
+
+
 	const {data: areas} = useQuery({
 		queryKey: ['areas'],
-		// queryFn: getAreas,
+		queryFn: getAreas,
 		staleTime: 1000 * 60 * 60, // 1 hour
 	})
 
@@ -23,7 +40,7 @@ export const AreasScreen = () => {
 					<AreaCard
 						key={item.id}
 						href={`(detail)/area/${item.id}` as Href}
-						title={item.area}
+						title={item.name}
 						image={item.images[0]}
 						index={index}
 					/>

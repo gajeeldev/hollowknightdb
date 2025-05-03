@@ -4,17 +4,9 @@ import {globalStyles} from '@/src/infrastructure/config/theme/theme'
 import {ScrollView, View} from 'react-native'
 import {NailCard} from '../components/NailCard'
 import {useSQLiteContext} from 'expo-sqlite'
+import { Nail, ParsedNail } from '../types'
 
-type Nail = {
-	id: string
-	name: string
-	description: string
-	images: string
-	upgrade_cost: string
-	damage: number
-}
 
-type ParsedNail = Omit<Nail, 'images'> & {images: string[]}
 
 export const NailScreen = () => {
 	const db = useSQLiteContext()
