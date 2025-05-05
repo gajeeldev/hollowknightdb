@@ -8,12 +8,11 @@ import {NoIdScreen} from '@/src/shared/components/ui/NoIdScreen'
 const SpellAndAbilityDetailPage = () => {
 	const {id} = useLocalSearchParams()
 
-	if (!id) {
+	if (typeof id !== 'string') {
 		return <NoIdScreen />
 	}
 
-	// TODO: change ids
-	if (id === '40393504-1884-4717-a3b7-b50d6394be7e') {
+	if (id === '71fe0163-3067-43ac-94da-8a9765f3f23f') {
 		return <DreamNailScreen id={id} />
 	}
 

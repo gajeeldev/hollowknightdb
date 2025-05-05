@@ -4,11 +4,28 @@ import {SpellAndAbilityCard} from '../components/SpellAndAbilityCard'
 import {FullScreenLoader} from '@/src/shared/components/ui/FullScreenLoader'
 import {globalStyles} from '@/src/infrastructure/config/theme/theme'
 import {type Href} from 'expo-router'
+import {useSQLiteContext} from 'expo-sqlite'
+import {ParsedSpellAndAbilityCard, SpellAndAbility} from '../types'
 
 export const SpellsAndAbilitiesScreen = () => {
+	const db = useSQLiteContext()
+
+	const getSpellsAndAbilities = async () => {
+		const result = await db.getAllAsync<SpellAndAbility>(
+			'SELECT * FROM SpellsAndAbilities',
+		)
+		const parsed: ParsedSpellAndAbilityCard[] = result.map(
+			(spellAndAbility) => ({
+				...spellAndAbility,
+				images: JSON.parse(spellAndAbility.images),
+			}),
+		)
+
+		return parsed
+	}
 	const {data: spellsAndAbilities} = useQuery({
 		queryKey: ['spellsAndAbilities'],
-		// queryFn: getSpellsAndAbilities,
+		queryFn: getSpellsAndAbilities,
 		staleTime: 1000 * 60 * 60, // 1 hour
 	})
 

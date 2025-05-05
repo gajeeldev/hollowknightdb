@@ -2,7 +2,15 @@ import {colors, globalStyles} from '@/src/infrastructure/config/theme/theme'
 import * as MailComposer from 'expo-mail-composer'
 import {Stack} from 'expo-router'
 import * as WebBrowser from 'expo-web-browser'
-import {ScrollView, StyleSheet, Text, View} from 'react-native'
+import {
+	Alert,
+	Button,
+	Pressable,
+	ScrollView,
+	StyleSheet,
+	Text,
+	View,
+} from 'react-native'
 import {Header} from '../components/Header'
 import {Item} from '../components/Item'
 import {GoHome} from '@/src/shared/components/GoHome'
@@ -84,6 +92,32 @@ export const AboutScreen = () => {
 				image={require('../../../assets/patreon.png')}
 				onPress={() => openBrowser('https://patreon.com/gajeeldev')}
 			/>
+
+			<View
+				style={{
+					height: 50,
+					backgroundColor: 'red',
+					marginTop: 20,
+					alignItems: 'center',
+					justifyContent: 'center',
+				}}
+			>
+				<Pressable
+					onPress={() => Alert.alert('Pressed')}
+					android_ripple={{color: 'red'}}
+					style={{
+						flex: 1,
+						justifyContent: 'center',
+						alignItems: 'center',
+						elevation: 2,
+						backgroundColor: 'blue',
+					}}
+				>
+					<Text style={{color: 'white'}}>Press</Text>
+				</Pressable>
+
+				<Button title='Press' onPress={() => Alert.alert('Pressed')} />
+			</View>
 
 			<View style={{height: 20}} />
 		</ScrollView>

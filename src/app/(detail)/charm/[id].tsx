@@ -5,7 +5,7 @@ import {NoIdScreen} from '@/src/shared/components/ui/NoIdScreen'
 const CharmDetailPage = () => {
 	const {id} = useLocalSearchParams()
 
-	if (!id) {
+	if (typeof id !== 'string') {
 		return <NoIdScreen />
 	}
 

@@ -5,7 +5,7 @@ import {NoIdScreen} from '@/src/shared/components/ui/NoIdScreen'
 const EnemyDetailPage = () => {
 	const {id} = useLocalSearchParams()
 
-	if (!id) {
+	if (typeof id !== 'string') {
 		return <NoIdScreen />
 	}
 	return <EnemyDetailScreen id={id} />

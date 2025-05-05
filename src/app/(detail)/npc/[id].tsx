@@ -5,9 +5,10 @@ import {NoIdScreen} from '@/src/shared/components/ui/NoIdScreen'
 const NpcDetailPage = () => {
 	const {id} = useLocalSearchParams()
 
-	if (!id) {
+	if (typeof id !== 'string') {
 		return <NoIdScreen />
 	}
+
 	return <NpcDetailScreen id={id} />
 }
 

@@ -6,8 +6,12 @@ import {Platform, Pressable, StyleSheet, View} from 'react-native'
 export const GoBack = () => {
 	const router = useRouter()
 
+	const goBack = () => {
+		router.back()
+	}
+
 	return (
-		<Pressable onPress={() => router.back()}>
+		<Pressable onPress={goBack} style={{zIndex: 10}}>
 			<View style={styles.container}>
 				<Ionicons
 					name={Platform.OS === 'ios' ? 'chevron-back-outline' : 'arrow-back'}
